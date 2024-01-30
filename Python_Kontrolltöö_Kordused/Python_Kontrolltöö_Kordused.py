@@ -30,18 +30,18 @@ print(f"Kõige lühem sõna: {lühim_sõna}")
 
 
 #2.
-#a=int(input("Sisesta astendaja: "))
-#n=int(input("Sisestage number n"))
-#b=1
-#v=0
-#while b<=n*100:
- #   print(f"{n}")
+a=int(input("Sisesta astendaja: "))
+n=int(input("Sisestage number n"))
+b=1
+v=0
+while b<=n*100:
+    print(f"{n}")
 
 
 #3.1
-#a=int(input("Sisestage õpilaste arv"))
-#x=[randint(1,10) for i in range(a)]
-#min_1=min(x)
-#max_1=max(x)
-#print("Minimaalsed hinded {min_1}")
-#print("Maksimaalsed hinnangud {max_1}")        
+a=int(input("Sisestage õpilaste arv"))
+x=[randint(1,10) for i in range(a)]
+min_1=min(x)
+max_1=max(x)
+print("Minimaalsed hinded {min_1}")
+print("Maksimaalsed hinnangud {max_1}")        
